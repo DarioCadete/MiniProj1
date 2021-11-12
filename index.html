@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   
+
+
+    <title>Hello Vue</title>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="src/app.js"></script>
+    
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <link rel="stylesheet" type="text/css" href="src/app.css"> 
+
+</head>
+<body>
+    <div id='app'>
+      
+        <main class="CV-page">
+                <h1 class="CV-primaryHeading">
+                  <span class="CV-primaryHeading-name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      
+                      {{ nome }} 
+                      
+                      </font></font></span>
+                  <small class="CV-primaryHeading-position"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                   QUEM SOU EU - RESUMO PROFISSIONAL</font>
+ 
+                      <font style="vertical-align: inherit;"></font></font><span class="CV-u-nowrap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></span><font style="vertical-align: inherit;"></font>
+                  
+                  </small>
+                
+                </h1>
+                
+                <p class="CV-primaryHeading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    
+                    {{ resumo_proficional }}
+
+                  </font></font></p>
+                <hr>
+                <div class="CV-grid">
+                  <div class="CV-grid-column CV-grid-column--left">
+                    <div class="CV-education">
+                      <h2 class="CV-secondaryHeading CV-education-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                         O QUE FAÇO - Palestras e postagens públicas
+                      </font></font></h2>
+                      <section class="CV-timeline CV-education-group">
+                        <h3 class="CV-timeline-heading">
+                          <span class="CV-timeline-heading-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prototipando um jogo de cartas físico com CSS</font></font></span><small class="CV-timeline-heading-duration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projetar um layout em CSS para prototipagem rápida de materiais impressos</font></font></small>
+                        </h3>
+                        <ul class="CV-timeline-details">
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Outubro de 2016:   </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Melb CSS Meetup</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">youTube</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )
+                          </font></font></li>
+                        </ul>
+                      </section>
+                      <section class="CV-timeline CV-education-group">
+                        <h3 class="CV-timeline-heading">
+                          <span class="CV-timeline-heading-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tabelas responsivas</font></font></span><small class="CV-timeline-heading-duration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entendendo a entrada Uma técnica CSS para criar um layout tabular reutilizável, flexível e acessível</font></font></small>
+                        </h3>
+                        <ul class="CV-timeline-details">
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Março de 2016: </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Postagem do blog de convidado sobre CSS Tricks</font></font></span></a>
+                          </li>
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Março de 2016:   </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Melb CSS Meetup</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">youTube</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )
+                          </font></font></li>
+                        </ul>
+                      </section>
+                      <section class="CV-timeline CV-education-group">
+                        <h3 class="CV-timeline-heading">
+                          <span class="CV-timeline-heading-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A vida secreta das entradas</font></font></span><small class="CV-timeline-heading-duration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Compreender o comportamento de entrada em navegadores e dispositivos para melhores práticas de design de formulários</font></font></small>
+                        </h3>
+                        <ul class="CV-timeline-details">
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Agosto de 2015: </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UX Australia - Brisbane</font></font></span></a>
+                          </li>
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Junho de 2015: </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IxDA Melbourne Meetup</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sketchnotes</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )
+                          </font></font></li>
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Março de 2015: </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS Conf Australia</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ( </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">descompactar</font></font></span></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )
+                          </font></font></li>
+                        </ul>
+                      </section>
+                      <section class="CV-timeline CV-education-group">
+                        <h3 class="CV-timeline-heading">
+                          <span class="CV-timeline-heading-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Guia de estilo multimarcas</font></font></span><small class="CV-timeline-heading-duration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Construindo um guia de estilo front-end para oferecer suporte a vários componentes, marcas e plataformas</font></font></small>
+                        </h3>
+                        <ul class="CV-timeline-details">
+                          <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Dezembro de 2014: </font></font><a href=""><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Melb CSS Meetup</font></font></span></a>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+
+                  </div>
+                  <div class="CV-grid-column CV-grid-column--right">
+                    <div class="CV-skills">
+                      <h2 class="CV-secondaryHeading CV-skills-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Habilidades técnicas
+                      </font></font></h2>
+                      <br><br>
+                      <h3 class="CV-tertiaryHeading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Especialidade Básica
+                      </font></font></h3>
+                      <ul class="CV-timeline-details">
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Sistemas de design (guias de estilo)
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Interface e design de formulário
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Web design responsivo e baseado em dispositivo
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Sistemas de ícones
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          HTML / CSS / JavaScript
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Wireframing e prototipagem
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Acessibilidade
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Comunicação e documentação de padrões de design
+                        </font></font></li>
+                      </ul>
+                      <h3 class="CV-tertiaryHeading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Experiência Extensa
+                      </font></font></h3>
+                      <ul class="CV-timeline-details">
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Software de design (Adobe suite, Sketch, Axure)
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Sistemas de construção front-end (Git, NPM, Grunt, Bower, Processadores)
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Arquitetura de informação
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Teste de usuário
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Design e desenvolvimento de e-mail
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Animação web
+                        </font></font></li>
+                        <li class="CV-timeline-details-item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                          Gerenciamento de conteúdo
+                        </font></font></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="CV-details">
+                  <a class="CV-detail CV-detail--twitter" href="">
+                    <div class="CV-detail-key"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Twitter 
+                    </font></font></div>
+                    <div class="CV-detail-val"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      @cadetedario
+                    </font></font></div>
+                  </a><a class="CV-detail CV-detail--linkedin" href="">
+                    <div class="CV-detail-key"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      LinkedIn 
+                    </font></font></div>
+                    <div class="CV-detail-val"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      au. </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">linkedin </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.com / cadetedario
+                    </font></font></div>
+                  </a><a class="CV-detail CV-detail--website" href="">
+                    <div class="CV-detail-key"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Local na rede Internet 
+                    </font></font></div>
+                    <div class="CV-detail-val"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      www </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.cadetedario </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.com
+                    </font></font></div>
+                  </a><a class="CV-detail CV-detail--blog" href="">
+                    <div class="CV-detail-key"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Blog 
+                    </font></font></div>
+                    <div class="CV-detail-val"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      cadetedario </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.cadetedario </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.com
+                    </font></font></div>
+                  </a><a class="CV-detail CV-detail--experiments" href="">
+                    <div class="CV-detail-key"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Experimentos da web 
+                    </font></font></div>
+                    <div class="CV-detail-val"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      codepen.io/ </font></font><wbr><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cadetedario
+                    </font></font></div>
+                  </a>
+                </div>
+        </main>
+</div>
+</body>
+</html>
